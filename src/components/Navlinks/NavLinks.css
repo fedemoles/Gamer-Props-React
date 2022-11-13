@@ -1,0 +1,27 @@
+.containerLinks {
+    width: 100% !important;
+}
+
+.menuNav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #c501e2;
+}
+
+.linkNav {
+    animation-duration: 3.5s;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #1eff05 !important;
+}
+
+.nav-link:focus {
+    outline: none;
+}
+
+.nav-link.active {
+    color: #ffa300 !important;
+}
