@@ -9,13 +9,14 @@ import './NavBar.css';
 
 
 
+
 function barraNav() {
 
     return (
         <NavBar sticky="top" className="navContainer">
             <div className="navLogo animate__animated animate__fadeIn animate__delay-1s">
-                <button className="containerDibu animate__animated animate__fadeInLeft animate__delay-1s" href="#home">
-                    <img className="imglogo" src="img/logo.png" alt="Logo Gamer" />
+                <button className="containerDibu animate__animated animate__fadeInLeft animate__delay-1s" href="home">
+                    <img className="imgLogo" src="img/logo.png" alt="Logo Gamer" />
                 </button>
                 <div className="envios animate__animated animate__fadeInDown animate__delay-1s">
                     <FaGrav />
