@@ -92,8 +92,8 @@ const products = [
     },
     {
         id: 11,
-        title: "SSD Seagate",
-        description: "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+        title: "SSD Western Digital",
+        description: "500gb",
         price: 40,
         stock: 52,
         category: "storage",
