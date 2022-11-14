@@ -29,7 +29,7 @@ const products = [
     },
     {
         id: 4,
-        title: "Processor AMD Ryzen 7",
+        title: "Proc. AMD Ryzen 7",
         description: "5700G",
         price: 499,
         stock: 20,
@@ -38,7 +38,7 @@ const products = [
     },
     {
         id: 5,
-        title: "Processor INTEL Core i9",
+        title: "Proc. INTEL Core i9",
         description: "10th",
         price: 750,
         stock: 10,
@@ -47,7 +47,7 @@ const products = [
     },
     {
         id: 6,
-        title: "Processor AMD Ryzen 5",
+        title: "Proc. AMD Ryzen 5",
         description: "5400X",
         price: 350,
         stock: 50,
@@ -101,8 +101,8 @@ const products = [
     },
     {
         id: 12,
-        title: "SSD NVMe M2 Western Digital",
-        description: "480gb",
+        title: "SSD NVMe M2",
+        description: "Western Digital 480gb",
         price: 60,
         stock: 30,
         category: "storage",
@@ -119,8 +119,8 @@ const products = [
     },
     {
         id: 14,
-        title: "SSD NVMe M2 Western Digital",
-        description: "240gb",
+        title: "SSD NVMe M2",
+        description: "Western Digital 240gb",
         price: 30,
         stock: 105,
         category: "storage",
@@ -128,8 +128,8 @@ const products = [
     },
     {
         id: 15,
-        title: "SSD NVMe M2 Western Digital",
-        description: "240gb",
+        title: "SSD NVMe M2",
+        description: "Western Digital 240gb",
         price: 19,
         stock: 110,
         category: "storage",
@@ -173,8 +173,8 @@ const products = [
     },
     {
         id: 20,
-        title: "GPU GIGABYTE RADEON RX 6800",
-        description: "24gb",
+        title: "GPU GIGABYTE Radeon",
+        description: "RX 6800 24gb",
         price: 459,
         stock: 10,
         category: "gpu",

@@ -31,14 +31,13 @@
 .card-detail{
   color: #333333;
   padding: 12px 8px;
-  text-align:justify;
+  border-top: 1px solid rgba(51,51,51,.1);
+  position: relative;
 }
 
 .card:hover .card-favicon{
   display: block;
 }
-
-
 
 .card-favicon{
   display: none;
