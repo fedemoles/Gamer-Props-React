@@ -12,14 +12,12 @@ function barraNav() {
   return (
     <NavBar sticky="top" className="navContainer">
       <div className="navLogo animate__animated animate__fadeIn animate__delay-1s">
-        <button
-          className="containerDibu animate__animated animate__fadeInLeft animate__delay-1s"
-          href="home"
-        >
-          <Link to="/">
-            <img className="imgLogo" src="img/logo.png" alt="Logo Gamer" />
+          
+          <Link to="/"
+            className="containerDibu animate__animated animate__fadeInLeft animate__delay-1s">
+            <img className="imgLogo" src="../img/logo.png" alt="Logo Gamer" />
           </Link>
-        </button>
+
         <div className="envios animate__animated animate__fadeInDown animate__delay-1s">
           <FaGrav />
           <p>NEXT GENERATION OF GAMERS</p>
