@@ -11,7 +11,7 @@ function MyButton(props) {
   return (
     <button
       onClick={handleClick}
-      style={{ backgroundColor: colorBtn, marginBotton: "10px" }}
+      style={{ backgroundColor: colorBtn, marginBotton: "15px" }}
       className="btn"
     >
       {props.children}

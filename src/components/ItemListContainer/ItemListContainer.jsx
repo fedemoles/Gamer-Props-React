@@ -1,13 +1,18 @@
 import { useState, useEffect } from "react";
 import "./ItemListContainer.css";
-import ItemCount from "../ItemCount/ItemCount";
-import Item from "../ItemCount/Item";
+//import ItemCount from "../ItemCount/ItemCount";
+import Item from "./Item";
 import getItems from "../../Services/MockService";
 import { useParams } from "react-router-dom";
 
-const ItemListContainer = ({ greeting }) => {
+/*const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = useState([]);
-  const { idCategory } = useParams();
+  const { idCategory } = useParams();*/
+
+  function ItemListContainer() {
+    const [products, setProducts] = useState([]);
+    const { idCategory } = useParams();
+  
 
   async function getItemsAsync() {
     let respuesta = await getItems(idCategory);
@@ -17,6 +22,7 @@ const ItemListContainer = ({ greeting }) => {
   useEffect(() => {
     getItemsAsync();
   }, [idCategory]);
+
 
   return (
     <div className="item-list">
@@ -36,5 +42,6 @@ const ItemListContainer = ({ greeting }) => {
     </div>
   );
 }
+
 
 export default ItemListContainer;

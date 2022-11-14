@@ -1,4 +1,4 @@
-/* -------------- BACK-END -------------- */
+/* -------------- BACK-END -------------- */ /*Simulamos Servidor de datos*/
 import products from "../data/data";
 
 function getItems(idCategory) {
