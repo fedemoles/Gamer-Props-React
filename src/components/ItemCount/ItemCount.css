@@ -3,6 +3,30 @@
     padding: 0 !important;
     color: #4a354f !important;
     font-size: 2.5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tituloProducto button {
+    background-color: #4a354f;
+    color: #ffa300;
+    border-radius: 5%;
+    align-self: center;
+    font-size: 1.5rem;
+    width: 14.5rem;
+    height: 1.5rem;
+    border: 2px solid #ffa300;
+    padding-bottom: 5rem;
+}
+
+.tituloProducto h1 {
+    align-self: center;
+    margin: 0 1.5rem !important;
+    padding: 0;
+    width: 3rem;
+    font-size: 2rem !important;
 }
 
 .cantidadProductos {
@@ -18,10 +42,10 @@
     border-radius: 50%;
     align-self: center;
     font-size: 2.5rem;
-    width: 4.2rem;
+    width: 4.5rem;
     height: 1.5rem;
     border: 2px solid #ffa300;
-    padding-bottom: 4.2rem;
+    padding-bottom: 4.5rem;
 }
 
 .cantidadProductos h1 {

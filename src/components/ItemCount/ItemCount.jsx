@@ -1,30 +1,33 @@
-import { useState } from 'react'
-import "./ItemCount.css"
+import { useState } from "react";
+import "./ItemCount.css";
+import MyButton from "../MyButton/MyButton";
 
-const Counter = () => {
-    const [count, setCount] = useState(1)
-    const [text] = useState('Título Producto')
+function ItemCount({ stock, onAddToCart }) {
+  const [count, setCount] = useState(1);
 
-    //const [text, setText] = useState('Título Producto')
+  function handleAdd() {
+    if (count < stock) setCount(count + 1);
+  }
 
-    const aumentar = () => {
-        setCount(count + 1)
-    }
+  function handleSubstract() {
+    if (count > 1) setCount(count - 1);
+  }
 
-    const restar = () => {
-        setCount(count - 1)
-    }
-
-    return (
-        <div className="containerCount animate__animated animate__fadeIn animate__delay-2s">
-            <h1 className='tituloProducto'>{text}</h1>
-            <div className="cantidadProductos">
-                <button disabled={count <= 1} onClick={restar}>-</button>
-                <h1>{count}</h1>
-                <button onClick={aumentar}>+</button>
-            </div>
-        </div>
-    )
+  return (
+    <div className="itemcount_container">
+      <div className="cantidadProductos">
+        <MyButton onTouchButton={handleSubstract}>-</MyButton>
+        <span>{count}</span>
+        <MyButton onTouchButton={handleAdd}>+</MyButton>
+      </div>
+      <div className="tituloProducto">
+        {/* 3. agregar un onClick con el evento recibido por Props */}
+        <MyButton onTouchButton={() => onAddToCart(count)}>
+          Agregar al carrito
+        </MyButton>
+      </div>
+    </div>
+  );
 }
 
-export default Counter
+export default ItemCount;
