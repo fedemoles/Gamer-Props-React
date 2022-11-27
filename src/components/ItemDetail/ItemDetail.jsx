@@ -2,14 +2,18 @@ import "./ItemDetail.css";
 import ItemCount from "../ItemCount/ItemCount";
 
 // ANEXO: crear un estado en ItemDetail, que guarde "count"
+import { useContext } from "react";
+import { cartContext } from "../Context/cartContext";
 
 function ItemDetail({ product }) {
   // 1. declarar un handler para el evento
   // 4. Recibir por parámetro la respuesta de ItemCount
+  const { addToCart } = useContext(cartContext);
 
   function onAddToCart(count) {
     alert(`Agregaste ${count} items al carrito!`);
     /* setState(count) */
+    addToCart(product, count);
   }
 
   return (

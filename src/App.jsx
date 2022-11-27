@@ -6,10 +6,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar/NavBar";
 //import NavLinks from "./components/NavLinks/NavLinks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { CartContextProvider } from "./components/Context/cartContext";
 
 function App() {
   return (
     <div className="App">
+      <CartContextProvider>
       <BrowserRouter>
         <NavBar />
         {/*<ItemListContainer greeting="Compras HARD para tu mundo GAMER" />*/}
@@ -20,9 +22,12 @@ function App() {
 
           <Route path="/detail/:idItem" element={<ItemDetailContainer />} />
 
+          <Route path="/cart" element={<h1>En construcción</h1>} />
+
           <Route path="*" element={<h1>Error 404: Está página no existe</h1>} />
         </Routes>
       </BrowserRouter>
+      </CartContextProvider>
     </div>
   );
 }
