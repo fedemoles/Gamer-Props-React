@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 //import NavLinks from "./components/NavLinks/NavLinks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartContextProvider } from "./components/Context/cartContext";
+import CartView from "./components/CartView/CartView";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
 
           <Route path="/detail/:idItem" element={<ItemDetailContainer />} />
 
-          <Route path="/cart" element={<h1>En construcción</h1>} />
+          <Route path="/cart" element={<CartView />} />
 
           <Route path="*" element={<h1>Error 404: Está página no existe</h1>} />
         </Routes>
