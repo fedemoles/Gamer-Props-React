@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import "./ItemListContainer.css";
 //import ItemCount from "../ItemCount/ItemCount";
 //import Item from "./Item";
-import getItems from "../../Services/MockService";
+//import getItems from "../../Services/MockService";
+import getItems, { getItemsByCategory } from "../../Services/Firestore";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
 import Loader from "../Loaders/Loader";
@@ -17,15 +18,19 @@ import Loader from "../Loaders/Loader";
     const { idCategory } = useParams();
   
     async function getItemsAsync() {
-      let respuesta = await getItems(idCategory);
-      setProducts(respuesta);
+      if( !idCategory ){
+        let respuesta = await getItems();
+        setProducts(respuesta);
+      }
+      else {
+        let respuesta = await getItemsByCategory(idCategory)
+        setProducts(respuesta)
+      }
+      
     }
   
     useEffect(() => {
       getItemsAsync();
-      return () => {
-        console.log("Componente desmontado");
-      };
     }, [idCategory]);
   
     // 1. Render Condicional con operador ternario + Spinner
@@ -38,4 +43,3 @@ import Loader from "../Loaders/Loader";
   }
   
   export default ItemListContainer;
-  

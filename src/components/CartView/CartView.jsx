@@ -11,7 +11,8 @@ function CartView() {
   return (
     <div className="cart-container">
       {cart.map((item) => (
-        <div>
+        <div key={item.id} className="cart-item">
+          <img src={item.imgurl} alt={item.title} />
           <h2>{item.title}</h2>
           <h4>${item.price}</h4>
           <h4>unidades: {item.count}</h4>

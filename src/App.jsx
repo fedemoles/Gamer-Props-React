@@ -9,7 +9,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartContextProvider } from "./components/Context/cartContext";
 import CartView from "./components/CartView/CartView";
 
+import testDatabase from "./Services/Firestore";
+
 function App() {
+
+  testDatabase();
+
   return (
     <div className="App">
       <CartContextProvider>
