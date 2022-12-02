@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import { cartContext } from "../Context/cartContext";
-import { createOrder, exportArrayToFirestore } from "../../Services/Firestore";
+import { createOrder } from "../../Services/Firestore";
+//import { createOrder, exportArrayToFirestore } from "../../Services/Firestore";
 import { useNavigate } from "react-router-dom";
 import MyButton from "../MyButton/MyButton";
 import './CartView.css'
+import CartForm from "./CartForm";
 
 function CartView() {
   const { cart, removeItem, clear, priceInCart } = useContext(cartContext);
@@ -20,18 +22,14 @@ function CartView() {
       </div>
     );
 
-  async function handleCheckout(evt) {
-    // Crear nuestro objeto "orden de compra"
-    const order = {
-      buyer: {
-        name: "Fede",
-        email: "fededevcod@gmail.com",
-        phone: "2616576014",
-      },
-      items: cart,
-      total: 0,
-      date: new Date(), //timestamp
-    };
+    async function handleCheckout(evt, data) {
+      // Crear nuestro objeto "orden de compra"
+      const order = {
+        buyer: data,
+        items: cart,
+        total: 0,
+        date: new Date(),
+      };
 
     const orderId = await createOrder(order);
     navigate(`/thankyou/${orderId}`);
@@ -51,20 +49,21 @@ function CartView() {
           <h2>{item.title}</h2>
           <h4>${item.price}</h4>
           <h4>unidades: {item.count}</h4>
-          <MyButton onTouchButton={() => removeItem(item.id)} colorBtn="red">
+          <MyButton onTouchButton={() => removeItem(item.id)} colorBtn="orange">
             X
           </MyButton>
         </div>
       ))}
       </div>
-      <MyButton colorBtn="green" onTouchButton={handleCheckout}>
-        Finalizar Compra
-      </MyButton>
+      <CartForm onSubmit={handleCheckout} />
       <MyButton>Vaciar carrito</MyButton>
-
     </div>
   );
 }
+
+/*      <MyButton colorBtn="green" onTouchButton={handleCheckout}>
+Finalizar Compra
+</MyButton>*/
 
 //      <button onClick={handleExport}>Borrenme pls</button>--->se uso dentro del div de arriba para exportar catálogo//
 
