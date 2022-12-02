@@ -8,7 +8,7 @@ import './CartView.css'
 import CartForm from "./CartForm";
 
 function CartView() {
-  const { cart, removeItem, clear, priceInCart } = useContext(cartContext);
+  const { cart, removeItem } = useContext(cartContext);
   let navigate = useNavigate();
 
   /*function handleExport(){
