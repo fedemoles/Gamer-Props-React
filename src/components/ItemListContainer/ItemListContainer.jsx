@@ -3,7 +3,7 @@ import "./ItemListContainer.css";
 //import ItemCount from "../ItemCount/ItemCount";
 //import Item from "./Item";
 //import getItems from "../../Services/MockService";
-import getItems, { getItemsByCategory } from "../../Services/Firestore";
+import { getItemsByCategory, getItemsOrdered } from "../../Services/Firestore";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
 import Loader from "../Loaders/Loader";
@@ -19,7 +19,7 @@ import Loader from "../Loaders/Loader";
   
     async function getItemsAsync() {
       if( !idCategory ){
-        let respuesta = await getItems();
+        let respuesta = await getItemsOrdered();
         setProducts(respuesta);
       }
       else {

@@ -40,6 +40,16 @@ export function CartContextProvider({ children }) {
     return total;
   }
 
+  function priceInCart() {
+    /* calcular el costo total de la compra */
+    let totalPrice = 0;
+    cart.forEach(
+      (producto) =>
+        (totalPrice = totalPrice + producto.price * producto.cantidad)
+    );
+    return totalPrice;
+  }
+
   function clear() {
     /* vaciar el estado */
   }
@@ -50,10 +60,6 @@ export function CartContextProvider({ children }) {
     newCart.pop();
     setCart(newCart);
     /* cart.filter -> Filtrar todos los items con un ID diferente a "idRemove"   */
-  }
-
-  function priceInCart() {
-    /* calcular el costo total de la compra */
   }
 
   function alreadyInCart(id){
@@ -70,7 +76,7 @@ export function CartContextProvider({ children }) {
   //4. Pasamos en la prop "value" las variables que queramos hacer visibles
   return (
     <cartContext.Provider
-      value={{ cart, addToCart, saludoContext, itemsInCart, removeItem }}
+      value={{ cart, addToCart, saludoContext, itemsInCart, removeItem,priceInCart }}
     >
       {children}
     </cartContext.Provider>
