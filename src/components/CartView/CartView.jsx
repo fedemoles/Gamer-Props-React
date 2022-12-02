@@ -50,13 +50,12 @@ function CartView() {
           <h4>${item.price}</h4>
           <h4>unidades: {item.count}</h4>
           <MyButton onTouchButton={() => removeItem(item.id)} colorBtn="orange">
-            X
+          Vaciar Carrito
           </MyButton>
         </div>
       ))}
       </div>
       <CartForm onSubmit={handleCheckout} />
-      <MyButton>Vaciar carrito</MyButton>
     </div>
   );
 }
