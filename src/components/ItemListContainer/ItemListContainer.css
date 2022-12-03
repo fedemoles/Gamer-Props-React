@@ -16,3 +16,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  .catalogo{
+    background-image: url("/public/img/wallpaperbetter.jpg");
+  }

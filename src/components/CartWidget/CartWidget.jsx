@@ -18,4 +18,6 @@ const CartWidget = () => {
   );
 };
 
+//<span className="cartMenuNum">{miContext.itemsInCart()}</span>//
+
 export default CartWidget;
