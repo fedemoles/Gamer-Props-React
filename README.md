@@ -13,11 +13,11 @@ Con posterioridad, se podría incorporar otros frameworks, tales como Vue JS.
 -Una vez agragado el producto al carrito se habilita la lsección para que vayamos al carrito de compras, en dicha sección se se incorpora un formulario para que el usuario y/o potencial cliente/comprador ingrese sus datos, asi coo nombre y apellido, dirección de mail donde direccionar el pido,y telefono de contacto, una vez completos dichos campos se habilitará la opcón para finlaiza la compra, el sistema desplegará un agradecimiento por la compra realizada y el núnmero de compra generado.<br><p>
 -Un avez realizada l acompra podremos visualizar en la data de firestore ingresando en orders, el pedido realizado por el usuario y/o potencial cliente/comprador.<br><p>
 -Los encabezados de cada página fueron realizados con Bootstrap, ya que permite cumplir con el responsive para los distintos dispositivos desde los cuáles se visita la web page.<br><p>
--Los pies de página incorporan links a las redes sociales del e-commerce para publicar y mantenerse al tanto de ofertas, promociones y descuentos.<br><p>
+-El píe de página incorpora link a las redes sociales del e-commerce para publicar y mantenerse al tanto de ofertas, promociones y descuentos.<br><p>
 -Se agrega código de error 404, el mismo se enceuntra en la sección <font color="orange">App.jsx</font>.<br><p>
 
 ### `Fuentes del proyecto`
-Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web, logos y fotos personales.
+Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (url), logos y fotos personales.
 
 ### `Acceso a la web page del proyecto`
 
