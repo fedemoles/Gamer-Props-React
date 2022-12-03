@@ -12,13 +12,13 @@
 .tituloProducto button {
     background-color: #4a354f;
     color: #ffa300;
-    border-radius: 5%;
+    border-radius: 10%;
     align-self: center;
-    font-size: 1.5rem;
-    width: 14.5rem;
-    height: 1.5rem;
+    font-size: 1.2rem;
+    width: 7rem;
+    height: 1rem;
     border: 2px solid #ffa300;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }
 
 .tituloProducto h1 {
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: -5rem;
 }
 
 .cantidadProductos button {
@@ -41,11 +41,11 @@
     color: #ffa300;
     border-radius: 50%;
     align-self: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     width: 4.5rem;
-    height: 1.5rem;
+    height: 4.5rem;
     border: 2px solid #ffa300;
-    padding-bottom: 4.5rem;
+    padding-bottom: -2.5rem;
 }
 
 .cantidadProductos h1 {

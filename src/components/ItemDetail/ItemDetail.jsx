@@ -32,7 +32,7 @@ function ItemDetail({ product }) {
         <h4 className="priceTag">$ {product.price}</h4>
       </div>
       {isInCart ? (
-        <Link to="/cart">
+        <Link to="/cart"style={{ color:"#c501e2"}}>
           <MyButton>Ir al Carrito</MyButton>
         </Link>
       ) : (

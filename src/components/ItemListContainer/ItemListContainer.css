@@ -19,4 +19,5 @@
 
   .catalogo{
     background-image: url("/public/img/wallpaperbetter.jpg");
+    margin-top: -0.5rem;/*ajustamos navbar*/
   }

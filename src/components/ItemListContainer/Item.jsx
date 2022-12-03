@@ -23,8 +23,8 @@ function Item({title, imgurl, price, stock, color, id, discount }) {
 
       </div>
 
-      <Link to={urlDetail}>
-        <MyButton onTouchButton={() => console.log("click")} colorBtn={stock <= 0 && "red"}>
+      <Link to={urlDetail}style={{ color:"#c501e2"}}>
+        <MyButton onTouchButton ={() => console.log("click")} colorBtn={stock <= 0 && "red"}>
           Ver Producto
         </MyButton>
       </Link>
