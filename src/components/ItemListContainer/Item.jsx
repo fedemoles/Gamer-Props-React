@@ -25,7 +25,7 @@ function Item({title, imgurl, price, stock, color, id, discount }) {
 
       <Link to={urlDetail}>
         <MyButton onTouchButton={() => console.log("click")} colorBtn={stock <= 0 && "red"}>
-          Ver más
+          Ver Producto
         </MyButton>
       </Link>
     </div>

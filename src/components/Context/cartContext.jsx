@@ -50,9 +50,9 @@ export function CartContextProvider({ children }) {
     return totalPrice;
   }
 
-  function clear() {
-    /* vaciar el estado */
-  }
+  /*function clear() {
+     vaciar el estado 
+  }*/
 
   function removeItem(idRemove) {
     console.log("Eliminando el item:", idRemove);
@@ -62,9 +62,9 @@ export function CartContextProvider({ children }) {
     /* cart.filter -> Filtrar todos los items con un ID diferente a "idRemove"   */
   }
 
-  function alreadyInCart(id){
-    /* return true/false */
-  }
+  /*function alreadyInCart(id){
+     return true/false 
+  }*/
 
   /*  const value = {
     saludoContext,

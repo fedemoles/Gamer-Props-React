@@ -27,9 +27,9 @@ export default function CartForm(props) {
   return (
     <form onSubmit={onSubmit}>
       {/* Podriamos convertir los inputs en Componentes */}
-      <div style={{ display: "flex", marginBottom: 8 }}>
-        <label htmlFor="name" style={{ width: "100px", marginRight: 4 }}>
-          Nombre
+      <div style={{ display: "flex", alignItems:"center", marginBottom: 10, }}>
+        <label htmlFor="name" style={{ width: "550px", marginRight: 4 }}>
+          Nombre y Apellido
         </label>
         <input
           required
@@ -40,8 +40,8 @@ export default function CartForm(props) {
         />
       </div>
 
-      <div style={{ display: "flex", marginBottom: 8 }}>
-        <label htmlFor="email" style={{ width: "100px", marginRight: 4 }}>
+      <div style={{ display: "flex", alignItems:"center", marginBottom: 10 }}>
+        <label htmlFor="email" style={{ width: "550px", marginRight: 4 }}>
           Email
         </label>
         <input
@@ -53,8 +53,8 @@ export default function CartForm(props) {
         />
       </div>
 
-      <div style={{ display: "flex", marginBottom: 8 }}>
-        <label htmlFor="phone" style={{ width: "100px", marginRight: 4 }}>
+      <div style={{ display: "flex", alignItems:"center", marginBottom: 10 }}>
+        <label htmlFor="phone" style={{ width: "550px", marginRight: 4 }}>
           Teléfono
         </label>
         <input
@@ -68,7 +68,7 @@ export default function CartForm(props) {
 
       <button
         disabled={data.name === "" || data.phone === "" || data.email === ""}
-        type="submit"
+        type="submit"style={{ backgroundColor: "green", color:"white", marginRight: 4 }}
       >
         Finalizar Compra
       </button>
