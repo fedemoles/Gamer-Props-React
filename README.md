@@ -25,7 +25,7 @@ Click on the link below to access.
 https://gamer-props-react.netlify.app// (Netlify)
 
 ### `Screenshot del proyecto`
-<img src="https://github.com/fedemoles/Gamer-Props-React/tree/main/public/img/demohome.png">
+<img src="https://github.com/fedemoles/Gamer-Props-React/blob/main/public/img/demohome.png">
 
 
 
