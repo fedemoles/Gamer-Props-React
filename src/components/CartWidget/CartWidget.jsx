@@ -13,7 +13,7 @@ const CartWidget = () => {
       <Link to="/cart">
         <BsCart3 className="carritoLogo" />
       </Link>
-      <span className="cartMenuNum">{miContext.itemsInCart()}</span>
+      <span className="cartMenuNum">{miContext.itemsInCart() || ""}</span>
     </div>
   );
 };
