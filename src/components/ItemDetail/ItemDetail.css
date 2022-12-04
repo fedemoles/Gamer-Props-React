@@ -2,6 +2,9 @@
     padding:5rem;
     height: 400px;
     object-fit: cover;
+    background-image: url("/public/img/wallpaperbetter.jpg");
+    margin-top: -0.3rem;/*ajustamos navbar*/
+    border-radius: 4px;
   }
   
   .card-detail_img img{

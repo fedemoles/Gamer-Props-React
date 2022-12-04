@@ -18,7 +18,8 @@ Con posterioridad, se podría incorporar otros frameworks, tales como Vue JS.
 
 ### `Fuentes del proyecto`
 Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (url), logos y fotos personales.
-
+### `Profesor CODERHOUSE Comisión React-34815`
+Santiago Salkin.<br><p>https://github.com/SSantiago90
 ### `Acceso a la web page del proyecto`
 
 Click on the link below to access.

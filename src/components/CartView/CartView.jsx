@@ -17,7 +17,7 @@ function CartView() {
 
   if (cart.length === 0)
     return (
-      <div className="cart-container">
+      <div className="cart-container"style={{width:'100%', height:'80vh', display:'flex', justifyContent:'center', alignItems:'center'}}>
         <h1>Carrito Vacío</h1>
       </div>
     );
