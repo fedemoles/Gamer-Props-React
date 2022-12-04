@@ -8,8 +8,8 @@ import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartContextProvider } from "./components/Context/cartContext";
 import CartView from "./components/CartView/CartView";
-
 import ThankYou from "./components/ThankYou/ThankYou";
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -32,6 +32,7 @@ function App() {
 
           <Route path="*" element={<h1>Error 404: Está página no existe</h1>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
       </CartContextProvider>
     </div>
