@@ -1,36 +1,62 @@
-# `Web Page Gamer-Props-React`
+# ✨`Web Page Gamer-Props-React`✨
 
 ## `Objetivo`
+
 La web page ha sido diseñada utilizando **React JS**, teniendo como objetivo servir como e-commerce para la adquisición de cualquier tipo de línea de productos, en este caso puntual el 🛒**e-commerce**🛒 se focaliza en la línea de hardware, óptima para el usuario gaming.
 
 ### `Funcionalidad y perspectivas futuras`
-El sitio está hecho con HTML, CSS, JS y React JS, habiendo utilizado además el framework Bootstrap. 
+
+El sitio está hecho con HTML, CSS, JS, Node JS y React JS, habiendo utilizado además el framework Bootstrap.
+<p><br>
+<p align="center"> 
+      <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+      alt="html5" width="40" height="40" /> </a><a href="https://www.w3schools.com/css/" target="_blank"
+      rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"
+      width="40" height="40" /> </a><a href="https://www.javascript.com/" target="_blank"rel="noreferrer"> <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      alt="javascript" width="40" height="40" /> </a>  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+      alt="nodejs" width="40" height="40" /> </a>
+      <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      alt="react" width="40" height="40" /> </a<a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+      alt="bootstrap" width="40" height="40" /> </a>
+<p><br>
+
 Con posterioridad, se podría incorporar otros frameworks, tales como Vue JS.
 
 ### `Descripción de las páginas y secciones del proyecto`
--En la página principal se muestran las cards con un total de 12 productos **(12 cards)**, la cantidad total de productos ofrecidos es de 20, esto se pude modificar desde el archivo  ***Firestore.js*** en el ***export async function getItemsOrdered***.<br><p>
+
+-En la página principal se muestran las cards con un total de 12 productos **(12 cards)**, la cantidad total de productos ofrecidos es de 20, esto se pude modificar desde el archivo **_Firestore.js_** en el **_export async function getItemsOrdered_**.<br><p>
 -En la sección de cada producto, **Ver Producto**, se accede a la visualización de un solo producto para posteriormente acceder a la compra del mismo, ya sea una sola unidad o en cantidad, limitado al stock disponible de cada producto.<br><p>
 -Una vez agregado el producto al carrito se habilita la siguiente sección para que vayamos al carrito de compras, en dicha sección se incorpora un formulario para que el usuario y/o potencial cliente/comprador ingrese sus datos, asi como nombre y apellido, dirección de mail donde direccionar el pido, y telefono de contacto, una vez completos dichos campos se habilitará la opción para finlaizar la compra, el sistema desplegará un agradecimiento por la compra realizada y el núnmero de orden/pedido generado.<br><p>
 -Un avez realizada la compra podremos visualizar en la data de **firestore** ingresando en la sección orders, el pedido realizado por el usuario y/o potencial cliente/comprador.<br><p>
 -Los encabezados de cada página fueron realizados con Bootstrap, ya que permite cumplir con el responsive para los distintos dispositivos desde los cuáles se visita la web page.<br><p>
 -El pie de página incorpora link a las redes sociales del **e-commerce** para publicar y mantenerse al tanto de ofertas, promociones y descuentos.<br><p>
--Se agrega código de error 404, el mismo se enceuntra en la sección ***App.jsx***.<br><p>
+-Se agrega código de error 404, el mismo se enceuntra en la sección **_App.jsx_**.<br><p>
 
 ### `Fuentes del proyecto`
-Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (***url***), logos y fotos personales.
+
+Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (**_url_**), logos y fotos personales.
+
 ### `Profesor CODERHOUSE Comisión React-34815`
+
 💻Santiago Salkin.<br><p>https://github.com/SSantiago90
+
 ### `Alumno CODERHOUSE Comisión React-34815`
+
 💻Federico Moles Del Pópolo.<br><p>https://github.com/fedemoles
+
 ### `Acceso a la web page del proyecto`
 
 Click on the link below to access.
 https://gamer-props-react.netlify.app// 🛒(Netlify)
 
 ### `Screenshot del proyecto`
+
 <img src="https://github.com/fedemoles/Gamer-Props-React/blob/main/public/img/demohome.png">
-
-
 
 <!--
 # Getting Started with Create React App
