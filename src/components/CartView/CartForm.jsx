@@ -68,7 +68,7 @@ export default function CartForm(props) {
 
       <button
         disabled={data.name === "" || data.phone === "" || data.email === ""}
-        type="submit"style={{ backgroundColor: "green", color:"white", marginRight: 4 }}
+        type="submit"style={{ backgroundColor: "green", color:"white", marginRight: 4, borderRadius:"4px",padding:"4px"}}
       >
         Finalizar Compra
       </button>
