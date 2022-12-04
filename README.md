@@ -1,7 +1,7 @@
 # `Web Page Gamer-Props-React`
 
 ## `Objetivo`
-La web page ha sido diseñada utilizando **React JS**, teniendo como objetivo servir como e-commerce para la adquisición de cualquier tipo de línea de productos, en este caso puntual el **e-commerce** se focaliza en la línea de hardware, óptima para el usuario gaming.
+La web page ha sido diseñada utilizando **React JS**, teniendo como objetivo servir como e-commerce para la adquisición de cualquier tipo de línea de productos, en este caso puntual el 🛒**e-commerce**🛒 se focaliza en la línea de hardware, óptima para el usuario gaming.
 
 ### `Funcionalidad y perspectivas futuras`
 El sitio está hecho con HTML, CSS, JS y React JS, habiendo utilizado además el framework Bootstrap. 
@@ -17,13 +17,15 @@ Con posterioridad, se podría incorporar otros frameworks, tales como Vue JS.
 -Se agrega código de error 404, el mismo se enceuntra en la sección ***App.jsx***.<br><p>
 
 ### `Fuentes del proyecto`
-Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (url), logos y fotos personales.
+Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (***url***), logos y fotos personales.
 ### `Profesor CODERHOUSE Comisión React-34815`
-Santiago Salkin.<br><p>https://github.com/SSantiago90
+💻Santiago Salkin.<br><p>https://github.com/SSantiago90
+### `Alumno CODERHOUSE Comisión React-34815`
+💻Federico Moles Del Pópolo.<br><p>https://github.com/fedemoles
 ### `Acceso a la web page del proyecto`
 
 Click on the link below to access.
-https://gamer-props-react.netlify.app// (Netlify)
+https://gamer-props-react.netlify.app// 🛒(Netlify)
 
 ### `Screenshot del proyecto`
 <img src="https://github.com/fedemoles/Gamer-Props-React/blob/main/public/img/demohome.png">
