@@ -50,6 +50,10 @@ export function CartContextProvider({ children }) {
     return totalPrice;
   }
 
+  function clear() {
+    setCart([])
+ }
+
   /*function clear() {
      vaciar el estado 
   }*/
@@ -76,7 +80,7 @@ export function CartContextProvider({ children }) {
   //4. Pasamos en la prop "value" las variables que queramos hacer visibles
   return (
     <cartContext.Provider
-      value={{ cart, addToCart, saludoContext, itemsInCart, removeItem,priceInCart }}
+      value={{ cart, addToCart, saludoContext, itemsInCart, removeItem,priceInCart,clear }}
     >
       {children}
     </cartContext.Provider>

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Footer.css"
 import {Link} from "react-router-dom"
+import { BsFacebook } from 'react-icons/bs'
+import {GrInstagram, GrTwitter} from 'react-icons/gr'
 
 function Footer() {
   return (
@@ -32,10 +34,12 @@ function Footer() {
             </ul>
             <ul className='col-12 col-md-3 list-unstyled'style={{ textDecorationLine: 'none', color:"white", marginLeft: 674, borderRadius:"4px",padding:"9px"}}>
               <li className='font-weigh-bold mb-2'>Síguenos en redes sociales</li>
-              <li className='d-flex justify-content-between'>
-                <i className="bi bi-facebook"/>
-                <i className="bi bi-instagram"/>
-                <i className="bi bi-twitter"/>
+              <li className='d-flex justify-content-between'style={{color: '#ffa300', fontSize: '50px',padding:"30px"}}>
+               
+                <BsFacebook/>
+                <GrInstagram/>
+                <GrTwitter/>
+               
               </li>
             </ul>
             <div className='container'>

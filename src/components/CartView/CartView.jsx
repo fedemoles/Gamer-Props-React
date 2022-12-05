@@ -8,7 +8,7 @@ import './CartView.css'
 import CartForm from "./CartForm";
 
 function CartView() {
-  const { cart, removeItem } = useContext(cartContext);
+  const { cart, removeItem, clear } = useContext(cartContext);
   let navigate = useNavigate();
 
   /*function handleExport(){
@@ -17,7 +17,7 @@ function CartView() {
 
   if (cart.length === 0)
     return (
-      <div className="cart-container"style={{width:'100%', height:'80vh', display:'flex', justifyContent:'center', alignItems:'center'}}>
+      <div className="cart-container"style={{width:'80%', height:'80vh', display:'flex', justifyContent:'center', alignItems:'center'}}>
         <h1>Carrito Vacío</h1>
       </div>
     );
@@ -33,6 +33,7 @@ function CartView() {
 
     const orderId = await createOrder(order);
     navigate(`/thankyou/${orderId}`);
+    clear()
     /* ${orderId} */
     //1. Hacer un rendering condicional -> guardamos el id en un State
     //2. Sweet Alert/Notificación -> mostrando el id
