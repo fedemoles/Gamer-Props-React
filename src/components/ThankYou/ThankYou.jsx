@@ -7,7 +7,7 @@ function ThankYou() {
   return (
     <div style={{ color: "#ffa300",width:'100%', height:'80vh', display:'flex', justifyContent:'center', alignItems:'center' }}>
       <h3>
-      Su orden de compra ha sido recibida,<p> nos comunicaremos a la brevedad</p><p>ID COMPRA N°:<p> <strong>{idOrder}</strong></p></p>
+      Su orden de compra ha sido recibida,<p> nos comunicaremos a la brevedad.</p><p>ID COMPRA N°:<p> <strong>{idOrder}</strong></p></p>
       </h3>
     </div>
   );
