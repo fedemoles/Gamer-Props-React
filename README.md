@@ -1,4 +1,4 @@
-# ✨`Web Page Gamer-Props-React`✨
+# <p align="center">✨`Web Page Gamer-Props-React`✨<p>
 
 ## `Objetivo`
 
