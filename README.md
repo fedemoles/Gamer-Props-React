@@ -52,7 +52,7 @@ Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (*
 ### `Acceso a la web page del proyecto`
 
 Click on the link below to access.
-<a href="https://gamer-props-react.netlify.app//"target="_blank"> 🛒(Netlify)
+https://gamer-props-react.netlify.app// 🛒(Netlify)
 
 ### `Screenshot del proyecto`
 
