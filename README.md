@@ -41,11 +41,11 @@ Con posterioridad, se podría incorporar otros frameworks, tales como Vue JS.
 
 Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (**_url_**), logos y fotos personales.
 
-### `Profesor CODERHOUSE Comisión React-34815`
+### `Profesor CODERHOUSE 🚀 Comisión React-34815`
 
 💻Santiago Salkin.<br><p>https://github.com/SSantiago90
 
-### `Alumno CODERHOUSE Comisión React-34815`
+### `Alumno CODERHOUSE 🚀 Comisión React-34815`
 
 💻Federico Moles Del Pópolo.<br><p>https://github.com/fedemoles
 
