@@ -44,7 +44,7 @@ Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web (*
 ### `Profesor CODERHOUSE 🚀 Comisión React-34815`
 
 💻Santiago Salkin.<br><p>https://github.com/SSantiago90
-🚀
+
 ### `Alumno CODERHOUSE 🚀 Comisión React-34815`
 
 💻Federico Moles Del Pópolo.<br><p>https://github.com/fedemoles
